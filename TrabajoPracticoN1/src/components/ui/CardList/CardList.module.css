@@ -1,0 +1,27 @@
+.containerCard{
+    width: 100%;
+    background: linear-gradient(135deg, #545454, #bebebe, #545454);
+    box-shadow: 5px 2px 10px #000000;
+    border-radius: 0.4rem;
+    padding: 0.4rem;
+    display: flex;
+    justify-content: space-between;
+}
+.actionCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+.actionCard button{
+    background-color: #cbcbcb;
+    color: rgb(0, 0, 0);
+    border-radius: 0.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.actionCard button:hover {
+    background-color: rgb(46, 46, 46);
+    color: white;
+    border-radius: 0.2rem;
+    cursor: pointer;
+}

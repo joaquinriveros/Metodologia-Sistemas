@@ -1,0 +1,22 @@
+{
+  "tareas": [
+    {
+      "id": "123",
+      "titulo": " Crear un Portafolio Web Personal",
+      "descripcion": "Diseñar y desarrollar un sitio web donde muestre mis proyectos, habilidades y una breve biografía. Utilizando HTML, CSS y JavaScript, y también un framework como React.",
+      "fechaLimite": "2025-03-31"
+    },
+    {
+      "id": "789",
+      "titulo": "Resolver 5 Problemas de Algoritmos en LeetCode",
+      "descripcion": "Resolver cinco problemas de algoritmos en LeetCode en categorías como estructuras de datos, recursión y programación dinámica.",
+      "fechaLimite": "2025-04-18"
+    },
+    {
+      "id": "654",
+      "titulo": "Construir una API REST con Node.js y Express",
+      "descripcion": "Crear una API básica que gestione un CRUD de usuarios o tareas. Usando Node.js con Express y almacena los datos en MongoDB o PostgreSQL.",
+      "fechaLimite": "2025-04-25"
+    }
+  ]
+}

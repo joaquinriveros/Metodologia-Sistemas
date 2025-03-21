@@ -1,0 +1,92 @@
+.containerPrincipalModal{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    backdrop-filter: brightness(60%) blur(2px);
+}
+
+.contentPopUp { 
+    background: linear-gradient(135deg, #3a3a3a, #1a1a1a); /* De gris oscuro a negro */
+    box-shadow: 5px 2px 10px #737373;
+    width: 35vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem;
+    border-radius: .4rem;
+    color: white;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+}
+
+.formContent{
+
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5rem;
+}
+input:focus::placeholder {
+    color: #ffffff; /* Rojo */
+}
+  
+textarea:focus::placeholder {
+    color: #ffffff; /* Verde */
+}
+  
+  
+.formContent input, textarea{
+    background-color: #3f3f3f;
+    color: aliceblue;
+    border-radius: 0.4rem;
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: .3rem;
+    resize: none;
+    margin: .4rem 0;
+    margin-bottom: 0.5rem;
+}
+
+.buttonCard{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.buttonClose, .buttonCrear {
+    padding: 12px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+.buttonClose {
+    background: linear-gradient(135deg, #df1e1e, #87062b);
+    color: white;
+}
+
+.buttonCrear {
+    background: linear-gradient(135deg, #1ca053, #094a0c);
+    color: white;
+}
+
+.buttonClose:hover, .buttonCrear:hover {
+    transform: scale(1.05); /* Pequeño efecto de zoom */
+    box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.3);
+}
